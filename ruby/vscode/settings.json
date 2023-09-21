@@ -1,0 +1,12 @@
+{
+    "ruby.rubocop.configFilePath": "",
+    "ruby.rubocop.executePath": "/home/r00/.gem/ruby/3.0.0/bin/",
+    "solargraph.commandPath": "/home/r00/.gem/ruby/3.0.0/bin/solargraph",
+    "solargraph.transport": "stdio",
+    "ruby.intellisense": "rubyLocate", // reference: https://github.com/castwide/solargraph/issues/218
+    "ruby.interpreter.commandPath": "/usr/bin/ruby",
+    "ruby.locate": {
+        "exclude": "{**/@(test|spec|tmp|.*),**/@(test|spec|tmp|.*)/**,**/*_spec.rb}",
+        "include": "**/*.rb"
+    }
+}
